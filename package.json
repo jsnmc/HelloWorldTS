@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Sample hello world TypeScript",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-typescript": "^2.13.6",
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "test": "node ./dist/app/main.js",
+    "compile": "gulp compile",
+    "watch": "gulp watch",
+    "start": "concurrent --kill-others \"gulp watch\" \"lite-server\""
+  },
+  "author": "jsnmc",
+  "license": "ISC"
+}

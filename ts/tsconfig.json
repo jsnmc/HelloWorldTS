@@ -1,0 +1,17 @@
+{
+     
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "removeComments": false,
+        "outFile": "../dist/app/app.js",
+        "outDir": "../dist/app",
+        "allowJs": true
+    },
+    "exclude": [
+        "js",
+        "node_modules"
+    ],
+    "compileOnSave": true
+}
